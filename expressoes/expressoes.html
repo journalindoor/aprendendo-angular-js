@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!-- saved from url=(0078)file:///C:/Users/RJunior/Documents/Trabalho/angularjs/exemplos/expressoes.html -->
 <html>
 <head>
 	
@@ -9,11 +8,9 @@
 </head>
 <body>
 
-	<div ng-app="" ng-init="pessoa={nome:Stephanie,sobrenome:Pinheiro}">
-		<p class="ng-binding">O nome da minha noiva é: </p>
+	<div ng-app="" ng-init="pessoa={nome:'Stephanie',sobrenome:'Pinheiro'}">
+		<p class="ng-binding">O nome da minha noiva é: {{ pessoa.nome }}  {{ pessoa.sobrenome }} </p>
 	</div>
-
-	teste da aula 1
 
 
 </body>
