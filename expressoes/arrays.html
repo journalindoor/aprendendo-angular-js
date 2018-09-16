@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+
+
+</head>
+<body>
+
+	<div ng-app="" ng-init="frutas=['laranja','banana','kiwi','pera']">
+		<input type="text" ng-model="numero" placeholder="Digite um numero entre 0 e 3">
+		<p>Uma fruta: {{ frutas[numero] }}</p>
+	</div>
+
+
+</body>
+</html>
