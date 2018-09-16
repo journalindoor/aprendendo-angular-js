@@ -9,15 +9,19 @@
 <body>
 
 
-<div ng-app="myApp">
-	
+<div ng-app="myApp" ng-controller="myCtrl">
+	{{ nome + " " + sobrenome }}
 </div>
 
 <script>
 	
-	var = angular.module("myApp", []);
-	
+	var app = angular.module("myApp", []);
 
+	app.controller("myCtrl", function($scope){
+		$scope.nome = "Tepha";
+		$scope.sobrenome = "Pinheiro";
+	});
+	
 </script>
 
 </body>
